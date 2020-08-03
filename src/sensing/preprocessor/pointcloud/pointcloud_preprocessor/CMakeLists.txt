@@ -293,6 +293,8 @@ install(
     crop_box_filter_node
     voxel_grid_downsample_filter_node
     concatenate_data_node
+    ray_ground_filter_node
+    distance_based_compare_map_filter_node
   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}

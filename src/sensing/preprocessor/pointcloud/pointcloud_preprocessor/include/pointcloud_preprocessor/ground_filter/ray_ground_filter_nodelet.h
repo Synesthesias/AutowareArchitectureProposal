@@ -72,7 +72,7 @@ namespace pointcloud_preprocessor
 {
 class RayGroundFilterNodelet : public pointcloud_preprocessor::Filter
 {
-  typedef pcl::PointXYZ PointType_;
+  typedef pcl::PointXYZINormal PointType_;
 
   struct PointXYZRTColor
   {
