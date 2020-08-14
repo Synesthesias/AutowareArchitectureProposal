@@ -379,7 +379,7 @@ void NDTScanMatcher::callbackSensorPoints(
   static size_t skipping_publish_num = 0;
   if (
     iteration_num >= ndt_ptr_->getMaximumIterations() + 2 ||
-    (sensor_points_sensorTF_msg_ptr->row_step/sensor_points_sensorTF_msg_ptr->point_step) < 40.0 ||
+    (sensor_points_sensorTF_msg_ptr->row_step/sensor_points_sensorTF_msg_ptr->point_step) < 150.0 ||
     transform_probability < converged_param_transform_probability_) {
     is_converged = false;
     ++skipping_publish_num;
