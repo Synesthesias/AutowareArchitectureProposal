@@ -43,6 +43,8 @@
 
 #include <pcl/registration/bfgs.h>
 #include <pcl/registration/icp.h>
+#include <boost/function.hpp>
+#include <boost/bind.hpp>
 
 namespace ndt_omp
 {
