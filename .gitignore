@@ -65,3 +65,4 @@ logs/
 src/**/COLCON_IGNORE
 
 # Don't ignore src/ because full-text search won't work.
+**/.claude/settings.local.json
