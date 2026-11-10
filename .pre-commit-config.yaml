@@ -60,7 +60,7 @@ repos:
       - id: sort-package-xml
 
   - repo: https://github.com/pycqa/isort
-    rev: 5.10.1
+    rev: 5.13.2
     hooks:
       - id: isort
 
@@ -68,6 +68,7 @@ repos:
     rev: 21.10b0
     hooks:
       - id: black
+        additional_dependencies: ["click<8.1"]
         args: ["--line-length=100"]
 
   - repo: https://github.com/PyCQA/flake8
